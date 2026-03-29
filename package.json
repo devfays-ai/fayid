@@ -1,0 +1,23 @@
+{
+  "name": "fayid-portfolio",
+  "version": "1.0.0",
+  "description": "FayID — Futuristic Gaming Portfolio with Discord OAuth & Rating System",
+  "author": "FayID",
+  "license": "MIT",
+  "private": true,
+  "engines": {
+    "node": ">=18.x"
+  },
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'Static site — no build step required'",
+    "deploy": "vercel --prod",
+    "lint": "echo 'No lint configured'"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "vercel": "^37.0.0"
+  }
+}
